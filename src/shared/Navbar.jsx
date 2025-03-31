@@ -6,8 +6,10 @@ const Navbar = () => {
   const [dropdownOpen, setDropdownOpen] = useState(false);
   const navLink = [
     { title: "Home", href: "/" },
-    { title: "About", href: "/about" },
-    { title: "Gallery", href: "/gallery" },
+    { title: "Modals", href: "/modals" },
+    { title: "Form", href: "/form" },
+    { title: "Card", href: "/card" },
+    { title: "Dashboard", href: "/dashboard" },
   ];
 
   return (
@@ -32,7 +34,7 @@ const Navbar = () => {
               <li key={item.href}>
                 <NavLink
                   to={item.href}
-                  className="font-semibold hover:text-primary duration-300 hover:text-gray-300"
+                  className={`${({isActive}) => isActive ? '  text-green-400' : ' text-white ' } font-bold duration-300 `}
                 >
                   {item.title}
                 </NavLink>
