@@ -4,6 +4,7 @@ import {
 import MainLayout from "../layout/MainLayout";
 import Home from "../pages/home/Home";
 import ErrorPage from "../pages/error/ErrorPage";
+import Dashboard from "../pages/allDashboards/dashboard/Dashboard";
 
 
 
@@ -16,7 +17,11 @@ export const router = createBrowserRouter([
         {
             path:'/',
             element: <Home></Home>
-        }
+        },
+        {
+            path:'/dashboard',
+            element: <Dashboard></Dashboard>
+        },
       ]
     },
   ]);
