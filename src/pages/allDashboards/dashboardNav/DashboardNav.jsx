@@ -5,10 +5,10 @@ import { NavLink } from "react-router-dom";
 const DashboardNav = () => {
       const [isOpen, setIsOpen] = useState(false);
       const navLink = [
-        { title: "Hotel", href: "/hotel"},
-        { title: "Education", href: "/education" },
-        { title: "Form", href: "/form" },
-        { title: "Card", href: "/card" },
+        { title: "Hotel", href: "/dashboard/hotel"},
+        { title: "Education", href: "/dashboard/education" },
+        { title: "Coffee Shop", href: "/dashboard/coffee" },
+        { title: "Transport", href: "/dashboard/transport" },
       ];
     return (
         <div className=" mt-1 container mx-auto ">
