@@ -7,8 +7,8 @@ const Navbar = () => {
   const navLink = [
     { title: "Home", href: "/" },
     { title: "Modals", href: "/modals" },
-    { title: "Form", href: "/form" },
-    { title: "Card", href: "/card" },
+    { title: "Forms", href: "/forms" },
+    { title: "Cards", href: "/cards" },
     { title: "Dashboard", href: "/dashboard" },
   ];
 
