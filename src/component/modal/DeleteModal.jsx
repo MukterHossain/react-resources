@@ -3,7 +3,7 @@ import React from 'react';
 const DeleteModal = () => {
     return (
         <div>
-            DeleteModal
+            Delete Modal
         </div>
     );
 };
